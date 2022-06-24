@@ -1,0 +1,26 @@
+Micareta micaloucosDoBootcamp = new Micareta();
+micaloucosDoBootcamp.AdicionarParticipante(new CoronaVirus());
+micaloucosDoBootcamp.AdicionarParticipante(new Ebola());
+micaloucosDoBootcamp.AdicionarParticipante(new Sertanejo());
+micaloucosDoBootcamp.AdicionarParticipante(new Gripe());
+micaloucosDoBootcamp.AdicionarParticipante(new Axe());
+micaloucosDoBootcamp.AdicionarParticipante(new Burrice());
+micaloucosDoBootcamp.AdicionarParticipante(new Humano(22, 'John Wick'));
+micaloucosDoBootcamp.AdicionarParticipante(new Humano(22, 'Irmãs Galvão'));
+micaloucosDoBootcamp.AdicionarParticipante(new Humano(22, 'Et e Rodolfo'));
+micaloucosDoBootcamp.AdicionarParticipante(new Humano(22, 'Tim Maia'));
+micaloucosDoBootcamp.AdicionarParticipante(new Humano(22, 'Tata Werneck'));
+micaloucosDoBootcamp.AdicionarParticipante(new Humano(22, 'Tonico e Tinoco'));
+micaloucosDoBootcamp.AdicionarParticipante(new Humano(22, 'Bozo'));
+micaloucosDoBootcamp.AdicionarParticipante(new Humano(22, 'Rapunzel'));
+micaloucosDoBootcamp.AdicionarParticipante(new Humano(22, 'Chupa Cabra'));
+micaloucosDoBootcamp.AdicionarParticipante(new Humano(22, 'Rita Lee'));
+micaloucosDoBootcamp.FazerAFesta();
+for(IInfecta ifct : micaloucosDoBootcamp.Participantes) {
+
+   if (ifct instanceOf Humano) {
+
+      Humano h = (Humano) ifct;
+      h.ImprimirSintoma();
+   }
+}
